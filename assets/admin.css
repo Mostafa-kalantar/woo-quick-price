@@ -1,0 +1,136 @@
+.variation-row {
+    background: #f6f7f7;
+}
+
+.variation-row td:first-child {
+    padding-left: 50px !important;
+}
+
+.wqp-pagination-left {
+    position: sticky;
+    bottom: 15px;
+    left: 0;
+
+    display: flex;
+    justify-content: flex-start;
+
+    gap: 10px;
+    margin-top: 25px;
+
+    padding: 10px 0;
+    background: transparent;
+}
+
+.wqp-pagination-left .wqp-btn {
+    min-width: 48px;
+    height: 44px;
+
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+
+    padding: 0 14px;
+
+    border-radius: 10px;
+    border: 1px solid #d0d7de;
+
+    background: #fff;
+    color: #1d2327;
+
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 500;
+
+    transition: all 0.2s ease;
+    box-shadow: 0 1px 2px rgba(0,0,0,0.05);
+}
+
+.wqp-pagination-left .wqp-btn:hover {
+    background: #f3f4f6;
+    border-color: #b6b8bb;
+    transform: translateY(-1px);
+}
+
+.wqp-pagination-left .wqp-btn.active {
+    background: #2271b1;
+    border-color: #2271b1;
+    color: #fff;
+    font-weight: 600;
+    box-shadow: 0 4px 10px rgba(34,113,177,0.25);
+}
+
+.wqp-pagination-left .nav {
+    font-weight: 600;
+}
+
+.wqp-category-select {
+    min-width: 300px;
+}
+
+.select2-container--default .select2-selection--single {
+    height: 38px;
+    border: 1px solid #8c8f94;
+}
+
+.select2-container--default .select2-selection--single .select2-selection__rendered {
+    line-height: 36px;
+}
+
+.select2-container--default .select2-selection--single .select2-selection__arrow {
+    height: 36px;
+}
+
+.pagination {
+    margin-top: 25px;
+}
+
+.wqp-pagination {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    flex-wrap: wrap;
+    direction: ltr;
+}
+
+.wqp-btn {
+    min-width: 12px;
+    height: 20px;
+    padding: 0 9px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 4px;
+    text-decoration: none;
+    background: #fff;
+    border: 1px solid #dcdcde;
+    color: #1d2327;
+    font-size: 14px;
+    font-weight: 600;
+    transition: all .15s ease;
+}
+
+.wqp-btn:hover {
+    background: #f6f7f7;
+    border-color: #2271b1;
+}
+
+.wqp-btn.active {
+    background: #2271b1;
+    border-color: #2271b1;
+    color: #fff;
+}
+
+.wqp-btn.nav {
+    min-width: 90px;
+}
+
+.wqp-dots {
+    font-size: 18px;
+    color: #777;
+}
+
+.wqp-page-info {
+    margin-right: 15px;
+    color: #666;
+    font-size: 13px;
+}
