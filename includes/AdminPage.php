@@ -10,8 +10,6 @@ class WQP_AdminPage
 
     public function assets()
     {
-        var_dump(wp_get_current_user()->roles);
-
         wp_enqueue_script(
                 'wqp-js',
                 WQP_URL . 'assets/admin.js',
